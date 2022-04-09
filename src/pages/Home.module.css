@@ -1,7 +1,20 @@
+.bodyhome {
+    min-height: 100vh;
+}
+
 .home {
     display: flex;
     align-items: center;
-    justify-content: space-around;
+    justify-content: space-evenly;
+    margin: auto;
+    padding-top: 2.5rem;
+    padding-bottom: 2.5rem
+}
+
+.line {
+    margin: auto;
+    max-width: 95%;
+    border: 1px solid rgba(150, 156, 186, 0.62);
 }
 
 .home h1 {
@@ -11,6 +24,22 @@
     font-size: 64px;
     line-height: 75px;
     color: #4E5BB4;
+}
+
+.home h2 {
+    font-family: 'Roboto';
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 28px;
+    color: #7C87D0;
+}
+
+.home h3 {
+    font-family: 'Roboto';
+    font-weight: 900;
+    font-size: 48px;
+    line-height: 56px;
+    color: rgba(78, 91, 180, 0.9);
 }
 
 .home p {
@@ -24,7 +53,6 @@
 
 .text {
     width: 534px;
-    height: 259px;
 }
 
 .img img {

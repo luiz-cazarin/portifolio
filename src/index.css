@@ -1,9 +1,16 @@
+:root {
+  --colorRed: #FC0D1B;
+  --colorLightBlue: #626fc583;
+  --colorBackground: #FDFDFD;
+}
+
 * {
   margin: 0;
 }
 
 
 body {
+  min-height: 100vh;
   margin: 0;
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   -webkit-font-smoothing: antialiased;

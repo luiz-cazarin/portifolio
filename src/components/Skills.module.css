@@ -1,0 +1,60 @@
+.bodySkills {
+    padding: 4em 1rem 4rem 1rem;
+}
+
+.Skills {
+    display: grid;
+    text-align: center;
+    justify-content: space-evenly;
+    grid-template-columns: 300px 300px 300px;
+    column-gap: 3em;
+}
+
+.col1 {
+    background-color: rgb(255, 255, 255);
+    height: 760px;
+    padding: 1em;
+}
+
+.col2 {
+    background-color: rgb(255, 255, 255);
+    height: 760px;
+    padding: 1em;
+}
+
+.col3 {
+    background-color: rgb(255, 255, 255);
+    height: 760px;
+    padding: 1em;
+}
+
+.text {
+    padding-top: 1em;
+    text-align: left;
+}
+
+.text p {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 23px;
+    letter-spacing: 0.04em;
+    color: #4d5abe;
+}
+
+img {
+    width: 240px;
+    object-position: center;
+    outline: 5px solid rgb(255, 255, 255);
+    outline-offset: -5px;
+}
+
+span {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 31px;
+    letter-spacing: 0.05rem;
+    color: #465393;
+}
