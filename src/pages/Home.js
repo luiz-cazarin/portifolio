@@ -3,7 +3,7 @@ import styles from './Home.module.css'
 
 export default function Home () {
     return (
-        <div className={styles.bodyhome}>
+        <div className={styles.bodyHome}>
             <div className={styles.home}>
                 <div className={styles.text}>
                     <h2>Hi, my name is</h2>
