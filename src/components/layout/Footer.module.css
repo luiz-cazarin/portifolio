@@ -1,0 +1,12 @@
+.footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    color: #626FC5;
+    padding: 1em;
+}
+
+.footer:hover {
+    cursor: pointer;
+}

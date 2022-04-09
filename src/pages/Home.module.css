@@ -1,0 +1,32 @@
+.home {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.home h1 {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 64px;
+    line-height: 75px;
+    color: #4E5BB4;
+}
+
+.home p {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 21px;
+    color: #8C8DAF;
+}
+
+.text {
+    width: 534px;
+    height: 259px;
+}
+
+.img img {
+    width: 430px;
+}
