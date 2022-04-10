@@ -16,10 +16,10 @@ export default function Navbar () {
                         <Link to="/projects">PROJECTS</Link>
                     </li>
                     <li className={styles.item}>
-                        <Link to="/">CONTACT</Link>
+                        <Link to="/contact">CONTACT</Link>
                     </li>
                     <li className={styles.item}>
-                        <Link to="/">LOGIN</Link>
+                        <Link to="/login">LOGIN</Link>
                     </li>
                 </ul>
             </div>

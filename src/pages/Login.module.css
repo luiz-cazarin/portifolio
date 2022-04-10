@@ -1,0 +1,116 @@
+.body {
+    min-height: calc(80vh - 1rem);
+    display: grid;
+    align-items: center;
+}
+
+.contentContainer {
+    max-width: 1400px;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.title {
+    font-family: 'Segoe UI';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 32px;
+    color: #858AB8;
+    margin-bottom: 35px;
+}
+
+.box__text {
+    max-width: 550px;
+    padding: 1rem;
+}
+
+.box__form {
+    width: 100%;
+    text-align: center;
+}
+
+.btn__login {
+    width: 194px;
+    height: 56px;
+    border: 1px solid #4444;
+    border-radius: 10px;
+    background: #4E5BB4;
+    color: white;
+}
+
+.btn__login:hover {
+    transition: .3s;
+    background: #7181e7;
+}
+
+.input__values {
+    text-align: left;
+    width: 427px;
+    height: 36px;
+    background: none;
+    border: 2px solid #4E5BB4;
+    border-radius: 10px;
+    margin-bottom: 40px;
+    padding: 1rem;
+    color: black;
+}
+
+.input__values:focus {
+    border: none;
+    background-color: #4e5cb411;
+}
+
+.box__text h1{
+    font-family: 'Segoe UI';
+    font-weight: 700;
+    font-size: 48px;
+    color: #4E5BB4;
+}
+
+.box__text h2{
+    font-family: 'Segoe UI';
+    font-weight: 700;
+    font-size: 48px;
+    color: #4E5BB4;
+}
+
+.box__text p{
+    font-family: 'Roboto';
+    font-weight: 400;
+    font-size: 18px;
+    color: #4E5BB4;
+}
+
+.box__text span{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    color: #4E5BB4;
+}
+
+
+
+.card__login {
+    height: auto;
+    border: 1px solid #4e5cb456;
+    border-radius: 25px;
+    margin: 1rem;
+    padding: 3em 3em 3em 3em;
+}
+ 
+.footer{
+    padding: 20px;  
+    display: flex;
+    justify-content: center;
+}
+.footer h2{
+    font-size: 1rem;
+    color: rgba(255, 255, 255, 0.5);
+    font-family: 'Segoe UI';
+    font-weight: 400;
+    line-height: 21px;
+    letter-spacing: 0.055em;
+}
