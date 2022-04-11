@@ -1,6 +1,6 @@
 # To access portfolio website
 
-<a target=”_blank” href="https://luiz-cazarin.web.app/">https://luiz-cazarin.web.app/</a>
+<a target="_blank" href="https://luiz-cazarin.web.app/">https://luiz-cazarin.web.app/</a>
 
 # Getting Started with Create React App
 
