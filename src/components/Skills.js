@@ -5,7 +5,7 @@ export default function Skills () {
         <div className={styles.bodySkills}>
             <div className={styles.Skills}>
                 <div className={styles.col1}>
-                    <img src='https://static.vecteezy.com/system/resources/previews/003/416/524/original/frontend-developer-illustration-concept-vector.jpg' alt='frontend'/>
+                    <img className={styles.img_skills} src='https://static.vecteezy.com/system/resources/previews/003/416/524/original/frontend-developer-illustration-concept-vector.jpg' alt='frontend'/>
                     <div className={styles.text} >
                         <div className={styles.title__text}>
                             <span>Frontend</span>
@@ -20,7 +20,7 @@ export default function Skills () {
                     </div>
                 </div>
                 <div className={styles.col2}>
-                    <img src='https://static.vecteezy.com/system/resources/previews/003/416/059/original/flat-design-backend-of-developer-concept-vector.jpg' alt='backend'/>
+                    <img className={styles.img_skills} src='https://static.vecteezy.com/system/resources/previews/003/416/059/original/flat-design-backend-of-developer-concept-vector.jpg' alt='backend'/>
                         <div className={styles.text} >
                         <div className={styles.title__text}>
                             <span>Backend</span>
@@ -39,7 +39,7 @@ export default function Skills () {
                     </div>
                 </div>
                 <div className={styles.col3}>
-                    <img src='https://rethinksoft.com/img/illustration.png' alt='competencias'/>
+                    <img className={styles.img_skills} src='https://rethinksoft.com/img/illustration.png' alt='competencias'/>
                     <div className={styles.text} >
                         <div className={styles.title__text}>
                             <span>Competencias</span>

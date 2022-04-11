@@ -1,5 +1,6 @@
 import Skills from '../components/Skills'
 import styles from './Home.module.css'
+// import { images } from '../constants';
 
 export default function Home () {
     return (

@@ -1,3 +1,26 @@
+@media (min-width: 1000px)
+{
+   .Skills {
+        grid-template-columns: 300px 300px 300px;
+   }
+   
+    .img_skills {
+        width: 240px;
+    }
+}
+
+@media (max-width: 1000px)
+{
+    .Skills {
+        grid-template-columns: 230px 230px 230px;
+   }
+
+   .img_skills {
+    width: 100%;
+}
+
+}
+
 .bodySkills {
     padding: 4em 1rem 4rem 1rem;
     min-width: 960px;
@@ -11,7 +34,7 @@
     display: grid;
     text-align: center;
     justify-content: space-between;
-    grid-template-columns: 300px 300px 300px;
+    /* grid-template-columns: 300px 300px 300px; */
     column-gap: 3em;
 }
 
@@ -48,8 +71,7 @@
     color: #4d5abe;
 }
 
-img {
-    width: 240px;
+.img_skills {
     object-position: center;
     outline: 5px solid rgb(255, 255, 255);
     outline-offset: -5px;
