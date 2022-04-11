@@ -15,8 +15,8 @@ export default function Projects () {
                 </div>
                 <div className={styles.grid__projects} >
                     <div className={styles.grid__projects_col1}>
-                        <h4>Automação web</h4>
-                        <p>Proje relized in university functionaly using to organizer social projects realized for university and students</p>
+                        <h4>Seja +</h4>
+                        <p>Projeto realizado na universidade para a universidade, sistema utilizado para organizar projetos sociais e projetos de extensão realizados por alunos da Universidade Católica de Brasília</p>
                     </div>
                     <div className={styles.grid__projects_col2}>
                         {image !== null && 
