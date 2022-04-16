@@ -29,7 +29,7 @@ export default function Projects () {
                 <div className={styles.grid__projects} >
                     <div className={styles.grid__projects_col1}>
                         <h4>Web</h4>
-                        <p>paginas de sites, log-in, portfólio, formulário, exercícios, utilizando JavaScript, HTML, CSS e nodejs</p>
+                        <p>paginas e dashboards responsivos, componentes, portfólio, formulário, utilizando JavaScript, HTML, CSS, React, Vuejs</p>
                     </div>
                     <div className={styles.grid__projects_col2}>
                         <div className={styles.card__projects}>

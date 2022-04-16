@@ -17,6 +17,7 @@ export default function Skills () {
                         <p>JavaScript</p>
                         <p>Vuetify</p>
                         <p>Quasar.dev</p>
+                        <p>Next</p>
                     </div>
                 </div>
                 <div className={styles.col2}>
@@ -35,21 +36,23 @@ export default function Skills () {
                         <p>PouchDB</p>
                         <p>FireBase</p>
                         <p>Rest</p>
-
+                        <p>Docker</p>
                     </div>
                 </div>
                 <div className={styles.col3}>
                     <img className={styles.img_skills} src='https://rethinksoft.com/img/illustration.png' alt='competencias'/>
                     <div className={styles.text} >
                         <div className={styles.title__text}>
-                            <span>Competencias</span>
+                            <span>Competências</span>
                         </div>
-                        <p>Scrum (YouTrack, Trello)</p>
+                        <p>Scrum, sprint (YouTrack, Trello)</p>
                         <p>UX/UI (Figma, AdobeXD)</p>
                         <p>Desenvolvimento Web</p>
                         <p>Desenvolvimento Mobile</p>
+                        <p>Integração frontend com backend</p>
                         <p>Test de software</p>
                         <p>Documentação de projetos</p>
+                        <p>Git, GitHub, Gitlab</p>
                     </div>
                 </div>
             </div>

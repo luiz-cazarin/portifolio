@@ -1,4 +1,50 @@
 .bodyContact {
     margin: 0;
-    min-height: calc(100vh - 200px);
+    min-height: calc(100vh - 15rem);
+    padding: 1rem;
+}
+
+.box {
+    display: grid;
+    justify-content: center;
+}
+
+.grid__icon {
+    display: flex;
+    column-gap: 3rem;
+    
+}
+.box__icon {
+    background: none;
+    border-radius: 30px;
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.075);
+    text-align: center;
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    width: 7rem;
+    padding: 1rem;
+}
+
+.box__icon:hover {
+    cursor: pointer;
+    transition: .4s;
+    border-radius: 50px;
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.267);
+}
+.box__icon .icon img{
+    padding: .2rem;
+    height: 4rem;
+    width: 4rem;
+    margin: 1rem;
+}
+
+.box__icon span {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 700;
+    color: var(--colorBlueTitle);
+}
+
+a {
+    text-decoration: none;
 }

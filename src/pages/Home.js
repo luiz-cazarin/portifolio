@@ -7,14 +7,11 @@ export default function Home () {
         <div className={styles.bodyHome}>
             <div className={styles.home}>
                 <div className={styles.text}>
-                    <h2>Hi, my name is</h2>
+                    <h2>Hello, my name is</h2>
                     <h1>Luiz Claudio.</h1>
                     <h3>I’m a software developer</h3>
                     <p>
-                        I’m a boston-based software engineer who specializes in building
-                        (and occasionaly designing) exceptional digital experiences.
-                        Currently. I’m an enginner at Upstatement focused on building
-                        acessible, human-centered products.
+                    I'm studying the seventh semester in Computer Science at the  Catholic University of Brasília, and I'm always looking for new challenges, ways to grow, learn and evolve.
                     </p>
                 </div>
                 <div className={styles.img}>

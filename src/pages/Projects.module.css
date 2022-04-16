@@ -27,14 +27,13 @@
 
 .grid__projects_col1 {
     height: 120px;
+    width: 100%;
     padding: .5em;
 }
 
 .grid__projects_col2 {
-    background-color: rgb(255, 255, 255);
-    height: 120px;
+    height: 130px;
     width: 100%;
-    padding: .5em;
     text-align: center;
 }
 
@@ -43,6 +42,12 @@
     height: 100%;
     width: 100%;
     box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.205);
+}
+
+.card__projects img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
 }
 
 .title {
