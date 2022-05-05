@@ -1,7 +1,62 @@
 import styles from './Projects.module.css'
 
 export default function Projects () {
-    const image = true;
+    const projects = [
+        {
+            title: 'Seja +',
+            text: 'Projeto realizado na universidade para a universidade, sistema utilizado para organizar projetos sociais e projetos de extensão realizados por alunos da Universidade Católica de Brasília',
+            url: null
+        },
+        {
+            title: 'Web',
+            text: 'paginas e dashboards responsivos, componentes, portfólio, formulário, utilizando JavaScript, HTML, CSS, React, Vuejs',
+            url: null
+        },
+        {
+            title: 'Blog em nodejs',
+            text: 'Blog em nodejs usando banco de dados mongodb, com autentificação de usuários, paginas de postagem e controle de acesso',
+            url: 'https://github.com/luiz-cazarin/BlogApp'
+        },
+        {
+            title: 'Prototipagem',
+            text: 'Protótipos de aplicativos e sites utilizando o figma',
+            url: null
+        },
+        {
+            title: 'Portfólio',
+            text: 'Paginas de portfólio como este site que voce esta usando',
+            url: 'https://github.com/luiz-cazarin/portifolio'
+        },
+        {
+            title: 'devLearning',
+            text: 'Site com o objetivo de ajudar outros estudantes a iniciarem sua carreira na progração',
+            url: null
+        },
+        {
+            title: 'Jogo de estratégia',
+            text: 'Jogo de estratégia em tempo real inspirado em Age of Empires usando Java',
+            url: 'https://github.com/luiz-cazarin/Jogo-Estrategia-em-Tempo-Real'
+        },
+    ]
+    const listProjects = projects.map(
+        (c) =>
+                <div className={styles.grid__projects}>
+                    <div className={styles.grid__projects_col1}>
+                        <h4>
+                            <a href={c.url}>{c.title}</a>
+                        </h4>
+                        <p>{c.text}</p>
+                    </div>
+                    { c.srcImg &&
+                        <div className={styles.grid__projects_col2}>
+                            <div className={styles.card__projects}>
+                                <p>{c.srcImg}</p>
+                            </div>
+                        </div>
+                    }
+                </div>
+    )
+
     return (
         <div className={styles.bodyProjects}>
             <div className={styles.projects}>
@@ -13,85 +68,9 @@ export default function Projects () {
                             <hr className={styles.line}></hr>
                         </div>
                 </div>
-                <div className={styles.grid__projects} >
-                    <div className={styles.grid__projects_col1}>
-                        <h4>Seja +</h4>
-                        <p>Projeto realizado na universidade para a universidade, sistema utilizado para organizar projetos sociais e projetos de extensão realizados por alunos da Universidade Católica de Brasília</p>
-                    </div>
-                    <div className={styles.grid__projects_col2}>
-                        {image !== null && 
-                            <div className={styles.card__projects}>
-                                <p> !Web Site</p>
-                            </div>
-                        }
-                    </div>
-                </div>
-                <div className={styles.grid__projects} >
-                    <div className={styles.grid__projects_col1}>
-                        <h4>Web</h4>
-                        <p>paginas e dashboards responsivos, componentes, portfólio, formulário, utilizando JavaScript, HTML, CSS, React, Vuejs</p>
-                    </div>
-                    <div className={styles.grid__projects_col2}>
-                        <div className={styles.card__projects}>
-                            <p> !Web Site</p>
-                        </div>
-                    </div>
-                </div>
-                <div className={styles.grid__projects} >
-                    <div className={styles.grid__projects_col1}>
-                        <h4>Blog em nodejs</h4>
-                        <p>Blog em nodejs usando banco de dados mongodb, com autentificação de usuários, paginas de postagem e controle de acesso</p>
-                    </div>
-                    <div className={styles.grid__projects_col2}>
-                        <div className={styles.card__projects}>
-                            <p> !Web Site</p>
-                        </div>
-                    </div>
-                </div>
-                <div className={styles.grid__projects} >
-                    <div className={styles.grid__projects_col1}>
-                        <h4>Prototipagem</h4>
-                        <p>Protótipos de aplicativos e sites utilizando o figma</p>
-                    </div>
-                    <div className={styles.grid__projects_col2}>
-                        <div className={styles.card__projects}>
-                            <p> !Web Site</p>
-                        </div>
-                    </div>
-                </div>
-                <div className={styles.grid__projects} >
-                    <div className={styles.grid__projects_col1}>
-                        <h4>Portfólio</h4>
-                        <p>Paginas de portfólio como este site que voce esta usando</p>
-                    </div>
-                    <div className={styles.grid__projects_col2}>
-                        <div className={styles.card__projects}>
-                            <p> !Web Site</p>
-                        </div>
-                    </div>
-                </div>
-                <div className={styles.grid__projects} >
-                    <div className={styles.grid__projects_col1}>
-                        <h4>devLearning</h4>
-                        <p>Site com o objetivo de ajudar outros estudantes a iniciarem sua carreira na progração</p>
-                    </div>
-                    <div className={styles.grid__projects_col2}>
-                        <div className={styles.card__projects}>
-                            <p> !Web Site</p>
-                        </div>
-                    </div>
-                </div>
-                <div className={styles.grid__projects} >
-                    <div className={styles.grid__projects_col1}>
-                        <h4>Jogo de estratégia</h4>
-                        <p>Jogo de estratégia em tempo real inspirado em Age of Empires usando Java</p>
-                    </div>
-                    <div className={styles.grid__projects_col2}>
-                        <div className={styles.card__projects}>
-                            <p> !Web Site</p>
-                        </div>
-                    </div>
-                </div>
+                <ul>
+                    {listProjects}
+                </ul>
             </div>
         </div>
     )

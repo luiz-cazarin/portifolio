@@ -28,7 +28,7 @@
 
 .box__icon:hover {
     cursor: pointer;
-    transition: .4s;
+    transition: .2s;
     border-radius: 50px;
     box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.267);
 }
