@@ -5,8 +5,8 @@ import Navbar from "./components/layout/Navbar";
 import Footer from "./components/layout/Footer";
 import Contact from './pages/Contact';
 import Login from './pages/Login';
-import axios from 'axios';
-import { useState, useEffect } from 'react';
+// import axios from 'axios';
+import { useEffect } from 'react';
 
 function App() {
 
