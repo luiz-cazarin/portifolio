@@ -5,7 +5,6 @@ import Navbar from "./components/layout/Navbar";
 import Footer from "./components/layout/Footer";
 import Contact from './pages/Contact';
 import Login from './pages/Login';
-import axios from 'axios';
 import { useEffect } from 'react';
 import api from './Api.js'
 
